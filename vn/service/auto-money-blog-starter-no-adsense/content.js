@@ -1,8 +1,8 @@
 if ( window.location.hostname == 'localhost' ) {
-  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-money-blog-starter-no-adsense/';
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store-item/vn/store/data/auto-money-blog-starter-no-adsense/';
   // console.log( 'Hostname : localhost' );
 } else {
-  var url = 'https://www.wp-item.com/' + 'store/data/auto-money-blog-starter-no-adsense/';
+  var url = 'https://www.wp-kr.com/' + 'store-item/vn/store/data/auto-money-blog-starter-no-adsense/';
   // console.log( 'Hostname : XXXXXXXXXX' );
 }
 

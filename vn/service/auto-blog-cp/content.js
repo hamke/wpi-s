@@ -1,8 +1,8 @@
 if ( window.location.hostname == 'localhost' ) {
-  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-blog-cp/';
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store-item/vn/store/data/auto-blog-cp/';
   // console.log( 'Hostname : localhost' );
 } else {
-  var url = 'https://www.wp-item.com/' + 'store/data/auto-blog-cp/';
+  var url = 'https://www.wp-kr.com/' + 'store-item/vn/store/data/auto-blog-cp/';
   // console.log( 'Hostname : XXXXXXXXXX' );
 }
 

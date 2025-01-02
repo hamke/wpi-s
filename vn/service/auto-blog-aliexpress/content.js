@@ -1,8 +1,8 @@
 if ( window.location.hostname == 'localhost' ) {
-  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-blog-aliexpress/';
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store-item/vn/store/data/auto-blog-aliexpress/';
   // console.log( 'Hostname : localhost' );
 } else {
-  var url = 'https://www.wp-item.com/' + 'store/data/auto-blog-aliexpress/';
+  var url = 'https://www.wp-kr.com/' + 'store-item/vn/store/data/auto-blog-aliexpress/';
   // console.log( 'Hostname : XXXXXXXXXX' );
 }
 

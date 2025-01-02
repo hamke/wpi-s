@@ -1,8 +1,8 @@
 if ( window.location.hostname == 'localhost' ) {
-  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-store-aliexpress/';
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store-item/jp/store/data/auto-store-aliexpress/';
   // console.log( 'Hostname : localhost' );
 } else {
-  var url = 'https://www.wp-item.com/' + 'store/data/auto-store-aliexpress/';
+  var url = 'https://www.wp-kr.com/' + 'store-item/jp/store/data/auto-store-aliexpress/';
   // console.log( 'Hostname : XXXXXXXXXX' );
 }
 

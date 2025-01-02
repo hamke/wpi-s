@@ -1,11 +1,11 @@
 if ( window.location.hostname == 'localhost' ) {
-  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-community-starter/';
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store-item/kr/store/data/auto-community-starter/';
   // console.log( 'Hostname : localhost' );
 } else {
-  var url = 'https://www.wp-item.com/' + 'store/data/auto-community-starter/';
+  var url = 'https://www.wp-kr.com/' + 'store-item/kr/store/data/auto-community-starter/';
   // console.log( 'Hostname : XXXXXXXXXX' );
 }
-
+ 
 fetch(url)
 .then(res => res.json())
 .then(feed_provider => {

@@ -1,8 +1,8 @@
 if ( window.location.hostname == 'localhost' ) {
-  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-blog-newspic/';
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store-item/data/auto-blog-newspic/';
   // console.log( 'Hostname : localhost' );
 } else {
-  var url = 'https://www.wp-item.com/' + 'store/data/auto-blog-newspic/';
+  var url = 'https://www.wp-kr.com/' + 'store-item/data/auto-blog-newspic/';
   // console.log( 'Hostname : XXXXXXXXXX' );
 }
 
