@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /
 Disallow: /service/assets/
 Disallow: /service/default/
